@@ -1,0 +1,19 @@
+name: aiosion
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pip
+  - pip:
+    - openai
+    - anthropic
+    - transformers
+    - flask
+    - fastapi
+    - uvicorn
+    - pydantic
+    - pytest
+    - black
+    - flake8
+    - mypy
